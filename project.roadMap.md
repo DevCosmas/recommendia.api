@@ -19,13 +19,40 @@
 
 ### Endpoints
 
+**Recomendia Resources Api**
+
 #### Seed Resources to the Database
-**POST**: `<BaseUrl>/recommendia.api/createResource`
+**POST**: `<BaseUrl>/recommendia.api/resoure/createResource`
 
 #### Get Resources from the Database
-**GET**: `<BaseUrl>/recommendia.api/getResource?apiKey&projectName&projectLevel&language&type`
+**GET**: `<BaseUrl>/recommendia.api/resource/getResource?apiKey&projectName&projectLevel&language&type`
 
----
+-------------------
+**Recommendia Official Website  Api**
+
+#### Create User
+**POST**: `<BaseUrl>/recommendia.api/user/signUp`
+
+#### Login User
+**POST**: `<BaseUrl>/recommendia.api/user/Login`
+
+#### User Password Reset Token
+**POST**: `<BaseUrl>/recommendia.api/user/PasswordResetToken`
+
+#### User Password Change
+**PATCH**: `<BaseUrl>/recommendia.api/user/newPassword`
+
+
+#### User Update
+**PATCH**: `<BaseUrl>/recommendia.api/user/updateMe`
+
+#### Generate ApiKey
+**POST**: `<BaseUrl>/recommendia.api/user/generateApiKey`
+
+------------------- 
+**Recommendia Display Site (Study group App) Api**
+###### DETAILS WILL ADDED LATER ....
+ -----------------
 
 ## Project Details
 
@@ -147,4 +174,4 @@
 - Deployment of the application.
 - Set up monitoring and maintenance routines.
 
-__NOTE__: Refer to the startup file to learn before forking the repo. Amend syntax only for me.
+__NOTE__: Refer to the startup file to learn before forking the repo.
