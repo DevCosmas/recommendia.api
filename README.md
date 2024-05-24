@@ -1,2 +1,3 @@
-# recommendia.api
-### first open source project
+# RECOMMENDIA API
+
+### OPEN SOURCE PROJECT FOR ENTHUSIASTIC DEVELOPERS AND DESIGNERS.
