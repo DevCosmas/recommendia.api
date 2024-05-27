@@ -1,3 +1,3 @@
 # RECOMMENDIA API
 
-### OPEN SOURCE PROJECT FOR ENTHUSIASTIC DEVELOPERS AND DESIGNERS.
+### Open Source Project for Enthusiastic Developers and Designers.
